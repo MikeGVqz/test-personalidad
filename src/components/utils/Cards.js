@@ -100,14 +100,14 @@ export const CardDef = styled.div.attrs({
   background: ${colors.$colorCardBg};
   background: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), transparent 1px, rgba(0, 0, 0, 0.3) 2px);
   background-size: 3px 3px;
-  color: #fff;
+  color: #000;
   ${media.tablet`width: 90%;`};
   ${media.laptop`width: 60%;`};
   h1 {
     position: relative;
     font-family: ${fonts.$titleFont};
     font-size: 1.1em;
-    color: ${colors.$colorGold};
+    color: #870399;
     text-align: center;
     margin-top: 2em;
     ${media.tablet`font-size: 1.5em; letter-spacing: 1.5px; margin-top: 3em;`};
@@ -117,7 +117,7 @@ export const CardDef = styled.div.attrs({
     position: absolute;
     left: 3%;
     top: 2%;
-    color: #fff;
+    color: #870399;
     text-shadow: none;
     ${media.tablet`font-size: 1.8em;`};
     ${media.laptop`font-size: 2em; top: 5%;`};

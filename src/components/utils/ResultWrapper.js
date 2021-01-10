@@ -5,7 +5,7 @@ import { fonts, colors } from './_var'
 export const Wrapper = styled.div.attrs({
   className: 'jumbotron'
 })`
-  background-color: grey;
+  background-color: #f4f4f4;
   .title {
     font-family: ${fonts.$titleFont};
     font-size: 2em;
@@ -21,7 +21,7 @@ export const Wrapper = styled.div.attrs({
   }
   .resultTxt {
     font-family: ${fonts.$mainFont};
-    color: ${colors.$colorGold};
+    color: #870399;
     text-align: center;
     ${media.tablet`font-size: 2em`};
     ${media.laptop`font-size: 2.2em`};
@@ -47,7 +47,7 @@ export const Wrapper = styled.div.attrs({
       font-family: ${fonts.$latoFont};
       border: 0;
       margin-bottom: 0;
-      color: ${colors.$colorGold};
+      color: #870399;
       ${media.tablet`font-size: 1.3em`};
       .icon {
         display: inline-block;

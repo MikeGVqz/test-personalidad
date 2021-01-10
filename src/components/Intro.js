@@ -47,7 +47,8 @@ const Intro = ({ title, _onStartClick }) => {
         {/* TODO: cambiar esta parte */}
         <ul className="list-group">
           <li className="list-group-item">Consiste de 40 preguntas</li>
-          <li className="list-group-item">Responde honestamente</li>
+          <li className="list-group-item">Toma tu tiempo.</li>
+          <li className="list-group-item">Responde honestamente.</li>
         </ul>
         <StartBtn onClick={_onStartClick}>
           <span>Responder</span>

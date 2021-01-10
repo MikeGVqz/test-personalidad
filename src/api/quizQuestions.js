@@ -13,7 +13,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'J,Brown,D,No',
@@ -32,7 +32,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'N,Green,C,No',
@@ -42,7 +42,7 @@ var quizQuestions = [
   },
   // question #3
   {
-    question: 'Me gusta probar cosas por mi.',
+    question: 'Tengo la iniciativa de probar cosas nuevas.',
     answers: [
       {
         // briggs, color, letter
@@ -51,7 +51,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'S,Red,A,No',
@@ -70,7 +70,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'J,Brown,D,No',
@@ -89,7 +89,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'T,Brown,C,No',
@@ -108,7 +108,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'I,Green,C,No',
@@ -127,7 +127,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'E,Blue,B,No',
@@ -146,7 +146,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'E,Blue,B,No',
@@ -156,7 +156,7 @@ var quizQuestions = [
   },
   // question #9
   {
-    question: 'Siempre expreso preocupación por los demás cuando tomo decisiones.',
+    question: 'Constantemente expreso preocupación por los demás cuando tomo decisiones.',
     answers: [
       {
         // briggs, color, letter
@@ -165,7 +165,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'F,Blue,B,No',
@@ -175,19 +175,19 @@ var quizQuestions = [
   },
   // question #10
   {
-    question: 'Me gusta probar nuevas cosas.',
+    question: 'Aprendo mejor observando paso a paso las instrucciones.',
     answers: [
       {
         // briggs, color, letter
-        type: 'P,Red,A',
+        type: 'S,Brown,D',
         content: '¡Si!'
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
-        type: 'P,Red,A,No',
+        type: 'S,Brown,D,No',
         content: "¡No!"
       }
     ]
@@ -203,7 +203,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'P,Red,A,No',
@@ -213,7 +213,7 @@ var quizQuestions = [
   },
   // question #12
   {
-    question: 'Resuelvo problemas trabajando con hechos hasta que entiendo el problema.',
+    question: 'Resuelvo problemas de forma lógica, basándome en hechos y no en suposiciones.',
     answers: [
       {
         // briggs, color, letter
@@ -222,7 +222,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'S,Brown,C,No',
@@ -241,7 +241,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'T,Green,C,No',
@@ -251,7 +251,7 @@ var quizQuestions = [
   },
   // question #14
   {
-    question: 'Tomo decisiones con mi corazón.',
+    question: 'Priorizo mis sentimientos en el momento de tomar decisiones.',
     answers: [
       {
         // briggs, color, letter
@@ -260,7 +260,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'F,Blue,B,No',
@@ -270,22 +270,23 @@ var quizQuestions = [
   },
   // question #15
   {
-    question: 'Aprendo mejor observando paso a paso las instrucciones.',
+    question: 'Me gusta probar nuevas cosas.',
     answers: [
       {
         // briggs, color, letter
-        type: 'S,Brown,D',
+        type: 'P,Red,A',
         content: '¡Si!'
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
-        type: 'S,Brown,D,No',
+        type: 'P,Red,A,No',
         content: "¡No!"
       }
     ]
+    
   },
   // question #16
   {
@@ -298,7 +299,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'P,Red,A,No',
@@ -317,7 +318,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'P,Red,A,No',
@@ -327,7 +328,7 @@ var quizQuestions = [
   },
   // question #18
   {
-    question: 'Me gusta mantener abiertas mis opciones al tomar decisiones.',
+    question: 'Considero todas las opciones posibles al momento de tomar decisiones.',
     answers: [
       {
         // briggs, color, letter
@@ -336,7 +337,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'P,Green,D,No',
@@ -355,7 +356,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'E,Blue,B,No',
@@ -374,7 +375,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'E,Blue,B,No',
@@ -393,7 +394,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'S,Brown,A,No',
@@ -412,7 +413,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'S,Brown,A,No',
@@ -431,7 +432,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'I,Green,D,No',
@@ -450,7 +451,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'I,Green,C,No',
@@ -469,7 +470,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'F,Blue,B,No',
@@ -488,7 +489,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'N,Red,A,No',
@@ -507,7 +508,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'T,Green,D,No',
@@ -526,7 +527,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'S,Red,A,No',
@@ -545,7 +546,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'J,Brown,D,No',
@@ -564,7 +565,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'F,Blue,B,No',
@@ -574,7 +575,7 @@ var quizQuestions = [
   },
   // question #31
   {
-    question: 'Dejo mis opiniones personales a un lado en pos de la equidad y la justicia.',
+    question: 'Mis opiniones personales consideran la equidad y la justicia para un bien común.',
     answers: [
       {
         // briggs, color, letter
@@ -583,7 +584,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'T,Brown,C,No',
@@ -602,7 +603,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'I,Green,C,No',
@@ -621,7 +622,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'E,Red,B,No',
@@ -640,7 +641,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'N,Green,C,No',
@@ -659,7 +660,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'J,Red,D,No',
@@ -678,7 +679,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'T,Red,A,No',
@@ -697,7 +698,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'N,Blue,D,No',
@@ -716,7 +717,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'F,Blue,B,No',
@@ -726,7 +727,7 @@ var quizQuestions = [
   },
   // question #39
   {
-    question: 'Necesito tiempo a solas para recargarme.',
+    question: 'Constantemente tomo un tiempo a solas para sentirme mejor.',
     answers: [
       {
         // briggs, color, letter
@@ -735,7 +736,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'I,Green,C,No',
@@ -754,7 +755,7 @@ var quizQuestions = [
       },
       {
         type: ' ',
-        content: '¡No tengo idea!'
+        content: '¡Me es indiferente!'
       },
       {
         type: 'J,Brown,D,No',
